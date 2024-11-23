@@ -6,9 +6,10 @@ import './App.css'
 function App() {
   return (
     <>
+    <img src="https://static.vecteezy.com/system/resources/thumbnails/018/972/639/small_2x/abstract-broken-glass-texture-with-particles-png.png" alt="" className="crk" />
       <div className="yungDolph">
         <h3 className="n2roMajor fontdiner-swanky-regular">n2rOsPeQ</h3>
-        <img src="../public/n2roMain.jpg" alt="" className="splashMain" />
+        <img src="/n2roMain.jpg" alt="" className="splashMain" />
 
       </div>
 
@@ -76,7 +77,7 @@ function App() {
 
 
         <div className="productContainer">
-          <h1 className="n2ro fontdiner-swanky-regular">products</h1>
+         
         </div>
       </div>
 
@@ -86,6 +87,11 @@ function App() {
       </div>
 
 
+      <div className="superiorContainer">
+
+
+
+      </div>
     </>
 
 

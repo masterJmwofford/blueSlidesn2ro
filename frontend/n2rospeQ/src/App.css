@@ -37,7 +37,7 @@
 
   .productContainer {
     border: .2px solid blue;
-    height: 23vh;
+    height: auto;
     width: 100%;
     display:block;
   }
@@ -160,7 +160,7 @@
 
   .productContainer {
     border: .2px solid blue;
-    height: 23vh;
+    height: 42vh;
     display:block;
   }
 
@@ -274,18 +274,20 @@
 }
 
 .scene {
-  width: 50%;
+  width: 60%;
 }
 .serviceHolder:hover{
   color:peru;
 }
 .mainVideoScreen{
   border:solid lemonchiffon;
+  background-image: url('https://gifdb.com/images/high/thunder-sky-background-pnzfm34jem8gj555.gif');
+  background-size:fill;
   margin:1em;
   height:32vh;
 }
 .btnContainer{
-  border:solid peru;
+  border:solid lemonchiffon;
   height:43px;
   margin:1em;
   display:flex;
@@ -306,4 +308,34 @@ padding:1em;
   /* border:solid red; */
   text-align:center;
   display:flex;
+  opacity:.4;
+}
+.superiorContainer{
+  border: solid peru;
+  height:44vh;
+}
+.productGridMaster{
+  border: .2px solid white;
+  margin:1em;
+  height:44vh;
+/* background-color:black; */
+}
+.productCard{
+  border:solid lightseagreen;
+  margin:1em;
+  height:45%;
+  /* background-color:black; */
+
+}
+.productContainer{
+  background-image:url('https://media.istockphoto.com/id/1308415052/vector/wild-style-graffiti-seamless-pattern.jpg?s=612x612&w=0&k=20&c=j3ea7vMkFGejRRiChGvC8KdPzX-P9bqqHJY-1rp6WHk=');
+}
+.nput{
+  margin:1em;
+
+}
+.crk{
+  position:fixed;
+  width:500px;
+  align-items: right;
 }
