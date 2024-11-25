@@ -18,7 +18,7 @@ function Mister() {
                             <div className="quincy"></div>
                             <div className="katrynada"></div>
                         </div>
-                        <p class="djTitle fontdiner-swanky-regular">n2roVibeCreator</p>
+                        <p class="djTitle fontdiner-swanky-regular"></p>
                     </div>
                     <div className="rightSection">
                         <img src="https://media3.giphy.com/media/Kc3D1JojoCtKtTZCHf/200w.gif?cid=6c09b952g3ad7xrvscjrra7g1hq9yeln95c75m2f3z7jl1hs&ep=v1_gifs_search&rid=200w.gif&ct=g" alt="" className="djAssist" />
