@@ -1,3 +1,19 @@
+
+@keyframes rip-off {
+  0% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  50% {
+    transform: translateX(50%) rotate(-10deg);
+    opacity: 0.7;
+  }
+  100% {
+    transform: translateX(100%) rotate(-15deg);
+    opacity: 0;
+  }
+}
+
 @media (max-width: 1880px) {
   body {
     background-color: black;
@@ -55,6 +71,10 @@
     display: flex;
     justify-content: space-around;
     width: auto;
+  }
+  .n2roConf{
+    border: .2px solid grey;
+    display:flex;
   }
 }
 
@@ -118,6 +138,10 @@
     justify-content: space-between;
     width: auto;
   }
+  .n2roConf{
+    border: .2px solid grey;
+    display:flex;
+  }
 
 }
 
@@ -178,7 +202,10 @@
     justify-content: space-evenly;
     width: auto;
   }
-
+  .n2roConf{
+    border: .2px solid grey;
+    display:block;
+  }
 }
 
 /* --------------------------------------[Mobile] */
@@ -204,7 +231,7 @@
 
 .cartContainer {
   /* border:solid white; */
-  width: 15%;
+  width: auto;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -311,8 +338,9 @@ padding:1em;
   opacity:.4;
 }
 .superiorContainer{
-  border: solid peru;
-  height:44vh;
+  /* border: solid peru; */
+  color:white;
+  height:auto;
 }
 .productGridMaster{
   border: .2px solid white;
@@ -338,4 +366,131 @@ padding:1em;
   position:fixed;
   width:500px;
   align-items: right;
+}
+.n2Span{
+  color:lime;
+}
+.mantra{
+  text-align: center;
+  color:white;
+  opacity:.3;
+}
+.n2roPara{
+  padding:1em;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.spacer{
+  height:70px;
+}
+.n2coin{
+  width:40px;
+}
+
+
+.nzo{
+  opacity:.3;
+}
+/*  */
+.ticket-button {
+  display: inline-block;
+  background: lightseagreen;
+  color: white;
+  border: 2px dashed white;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  cursor: pointer;
+  position: relative;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  overflow: hidden;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.ticket-button::before,
+.ticket-button::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+
+.ticket-button:hover {
+  transform: scale(1.05);
+}
+
+.ticket-button.ripped {
+  animation: rip-off 0.8s forwards;
+}
+
+input{
+  margin:1em;
+  width:auto;
+  border-radius:6px;
+  border:.2px solid lightseagreen;
+  color:peru;
+  font-family: 'Courier New', Courier, monospace;
+  padding:6px;
+  font-size:15px;
+}
+
+.incredibleContainer{
+  border:solid white;
+  height:auto;
+  margin:1em;
+}
+.wutang{
+border:solid yellow;
+display:flex;
+justify-content: space-evenly;
+font-size:16px;
+}
+.beatMachine{
+  border:.2px solid salmon;
+  height:44vh;
+  display:flex;
+  justify-content: space-between;
+
+}
+.leftSection{
+  border:.2px solid blue;
+  width:25%;
+  margin:10px;
+  
+}
+.midSection{
+  /* border: .2px solid red; */
+  width:45%;
+}
+.rightSection{
+  border: .2px solid peru;
+  width:25%;
+  margin:10px;
+}
+.turntable{
+  border:.2px solid white;
+  height:22vh;
+  display:flex;
+  justify-content: space-around;
+}
+.quincy,.katrynada{
+  border:.2px solid grey;
+  width:120px;
+  height:120px;
+  border-radius:50%;
+}
+.djAssist{
+  width:100%;
+}
+.djTitle{
+  text-align:center;
+}
+.topBeat{
+  border: .2px solid white;
+  height:22px;
+  text-align:center;
+  color:lightblue;
 }
