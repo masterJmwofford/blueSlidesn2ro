@@ -1,27 +1,51 @@
-import React from 'react'
+import {React , useState}from 'react'
 
 function Mister() {
+    const [audioPlaying,setAudioPlaying] = useState(true)
+
     return (
         <>
             <div className="incredibleContainer">
                 <div className="beatMachine">
                     <div className="leftSection">
-                        <div className="topBeat">Select  a_n2roVibe</div>
+                        <div className="topBeat">Select  Playlist</div>
                         <div className="loContainer">
-                            <div className="vibey"></div>
+                            <div className="vibey fontdiner-swanky-regular">Lo-Fi</div>
+                            <div className="vibey fontdiner-swanky-regular">CookingSoul</div>
+                            <div className="vibey fontdiner-swanky-regular">Chilli_O</div>
+                            <div className="vibey fontdiner-swanky-regular">ASMR</div>
+                            <div className="vibey fontdiner-swanky-regular">CuZn</div>
+                            <div className="vibey fontdiner-swanky-regular">Instrumental</div>
 
                         </div>
                     </div>
                     <div className="midSection">
-                    <p class="djTitle fontdiner-swanky-regular">n2roVibeCreator</p>
+                    <p class="djTitle  fontdiner-swanky-regular">n2roVibeCreator</p>
                         <div className="turntable">
-                            <div className="quincy"></div>
-                            <div className="katrynada"></div>
+                           
                         </div>
+                        <div className="playHolder"></div>
                         <p class="djTitle fontdiner-swanky-regular"></p>
                     </div>
                     <div className="rightSection">
-                        <img src="https://media3.giphy.com/media/Kc3D1JojoCtKtTZCHf/200w.gif?cid=6c09b952g3ad7xrvscjrra7g1hq9yeln95c75m2f3z7jl1hs&ep=v1_gifs_search&rid=200w.gif&ct=g" alt="" className="djAssist" />
+                       
+                        <div className="keyboard">
+                            
+                            <div className="kii"></div>
+                            <div className="kii"></div>
+                            <div className="kii"></div>
+                            <div className="kii"></div>
+                            <div className="kii"></div>
+                            <div className="kii"></div>
+                            <div className="kii"></div>
+                            <div className="kii"></div>
+                            <div className="kii"></div><div className="kii"></div>
+                            <div className="kii"></div>
+                            <div className="kii"></div>
+                        </div>
+                        <div className="autoBtn fontdiner-swanky-regular">
+                            {audioPlaying? "Audio Off": "Audio On"}
+                        </div>
                     </div>
 
                 </div>

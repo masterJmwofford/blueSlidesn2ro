@@ -326,6 +326,14 @@ padding:1em;
   border:solid white;
   height:35px;
   border-radius:50%;
+
+}
+.symbol:hover{
+  border:solid white;
+  height:35px;
+  border-radius:50%;
+  -webkit-box-shadow: -2px 2px 27px 5px #52AAFF; 
+  box-shadow: -2px 2px 27px 5px #52AAFF;
 }
 .seven{
   font-size:85px;
@@ -449,10 +457,11 @@ justify-content: space-evenly;
 font-size:16px;
 }
 .beatMachine{
-  border:.2px solid salmon;
+  border:.2px solid white;
   height:44vh;
   display:flex;
   justify-content: space-between;
+  margin:1em;
 
 }
 .leftSection{
@@ -472,16 +481,13 @@ font-size:16px;
 }
 .turntable{
   border:.2px solid white;
+  background-image: url('https://media3.giphy.com/media/Kc3D1JojoCtKtTZCHf/200w.gif?cid=6c09b952g3ad7xrvscjrra7g1hq9yeln95c75m2f3z7jl1hs&ep=v1_gifs_search&rid=200w.gif&ct=');
+  background-size: cover;
   height:22vh;
   display:flex;
   justify-content: space-around;
 }
-.quincy,.katrynada{
-  border:.2px solid grey;
-  width:120px;
-  height:120px;
-  border-radius:50%;
-}
+
 .djAssist{
   width:100%;
 }
@@ -493,4 +499,36 @@ font-size:16px;
   height:22px;
   text-align:center;
   color:lightblue;
+}
+.keyboard{
+  /* border:.2px solid red; */
+  height:auto;
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: space-around;
+}
+.kii{
+  border:solid grey;
+  height:45px;
+  width:45px;
+  border-radius:6px; 
+}
+.kii:hover{
+  border:solid grey;
+  height:45px;
+  width:45px;
+  border-radius:6px; 
+  -webkit-box-shadow: -2px 2px 27px 5px #52AAFF; 
+box-shadow: -2px 2px 27px 5px #52AAFF;
+}
+.autoBtn{
+  background-color:lightblue;
+  color:green;
+  text-align:center;
+}
+.vibey{
+  border:.2px solid grey;
+  border-radius:12px;
+  margin-top:22px;
+  text-align: center;
 }
