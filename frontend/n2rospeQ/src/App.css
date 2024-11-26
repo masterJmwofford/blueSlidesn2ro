@@ -532,3 +532,11 @@ box-shadow: -2px 2px 27px 5px #52AAFF;
   margin-top:22px;
   text-align: center;
 }
+.vibey:hover{
+  border:.2px solid grey;
+  border-radius:12px;
+  margin-top:22px;
+  text-align: center;
+  -webkit-box-shadow: -2px 2px 27px 5px #52AAFF; 
+  box-shadow: -2px 2px 27px 5px #52AAFF;
+}

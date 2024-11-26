@@ -24,7 +24,7 @@ function Mister() {
                         <div className="turntable">
                            
                         </div>
-                        <div className="playHolder"></div>
+                        
                         <p class="djTitle fontdiner-swanky-regular"></p>
                     </div>
                     <div className="rightSection">
